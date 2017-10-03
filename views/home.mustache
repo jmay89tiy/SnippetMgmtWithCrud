@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+  </head>
+
+  <h1> Cupboard </h1>
+  <h3> A place for developers and code to coincide </h3>
+
+  <h3> View All Current Snippets Below </h3>
+
+  <div class="playerList">
+    {{#snippets}}
+  <div class = "stats">
+    <p>Title : {{title}} </p>
+    <p>Snippet : {{body}} </p>
+    <p>Optional Notation : {{notes}} </p>
+    <p>Language : {{language}} </p>
+    <p>Tags: {{tags}} </p>
+
+  <form action = "/delSnippet/{{id}}" method ="POST">
+    <button type="submit"> Delete Snippet </button>
+  </form>
+
+  </div>
+    {{/snippets}}
+  </div>
+  </body>
+</html>
+
+
+  <body>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

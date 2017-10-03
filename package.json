@@ -1,0 +1,25 @@
+{
+  "name": "week7project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "flash-messages": "0.0.4",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.11.9",
+    "mustache-express": "^1.2.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
